@@ -29,3 +29,9 @@ $('.albums .btn-right').click(function() {
 $('.albums .btn-left').click(function() {
     fullpage_api.moveSlideLeft();
 }) 
+$('.albums .btn-right-desktop').click(function() {
+    fullpage_api.moveSlideRight();
+}) 
+$('.albums .btn-left-desktop').click(function() {
+    fullpage_api.moveSlideLeft();
+}) 
