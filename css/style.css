@@ -713,6 +713,7 @@ li {
 @media screen and (max-width: 1280px) {
     .hero {
         background-position: center center;
+        background-size: cover;
     }
 
     .album {
@@ -778,7 +779,6 @@ li {
 
 @media screen and (max-width: 576px) {
     .hero {
-
         background-size: cover;
         background-position: center center;
     }
@@ -794,7 +794,7 @@ li {
         -webkit-filter: brightness(70%);
         filter: brightness(70%);
     }
-    
+
     .preloader .latest-release-desktop {
         display: none;
     }
