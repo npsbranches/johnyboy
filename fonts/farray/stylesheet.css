@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'FARRAY';
+    src: url('FARRAY-Regular.eot');
+    src: url('FARRAY-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FARRAY-Regular.woff2') format('woff2'),
+        url('FARRAY-Regular.woff') format('woff'),
+        url('FARRAY-Regular.ttf') format('truetype'),
+        url('FARRAY-Regular.svg#FARRAY-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
