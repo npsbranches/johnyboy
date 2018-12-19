@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    // $('.preloader').delay(3000).fadeOut(500);
+    $('.preloader').delay(3000).fadeOut(500);
 })
 
 new fullpage('#fullpage', {
