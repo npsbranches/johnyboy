@@ -50,21 +50,24 @@ li {
     justify-content: center;
 }
 
-.preloader .latest-release {
+.preloader .latest-release-desktop {
+    display: block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
-.preloader .latest-release img {
+.preloader .latest-release-mobile {
+    display: none;
     width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center center;
-    object-position: center center;
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
+    height: 100vh;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .preloader span {
@@ -763,6 +766,8 @@ li {
 
     .albums-buttons .btn-left,
     .albums-buttons .btn-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -790,7 +795,12 @@ li {
         -webkit-filter: brightness(70%);
         filter: brightness(70%);
     }
-
+    .preloader .latest-release-desktop {
+        display: none;
+    }
+    .preloader .latest-release-mobile {
+        display: block;
+    }
     .album .album-info h3 {
         font-size: 12px;
     }
