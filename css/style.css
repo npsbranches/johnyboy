@@ -371,8 +371,9 @@ li {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * HERO * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .hero {
-    background: url('../images/hero-bg-2-min.jpg') no-repeat;
+    background: url('../images/hero-bg-2-min-mobile.jpg') no-repeat;
     background-size: cover;
+    background-position-x:  center;
 }
 
 .section.hero {
@@ -711,11 +712,6 @@ li {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * MEDIA QUERIES * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 @media screen and (max-width: 1280px) {
-    .hero {
-        background-position: center center;
-        background-size: cover;
-    }
-
     .album {
         height: 150px;
         -ms-flex-preferred-size: 150px;
@@ -778,11 +774,6 @@ li {
 }
 
 @media screen and (max-width: 576px) {
-    .hero {
-        background-size: cover;
-        background-position: center center;
-    }
-
     .album {
         max-width: 200px;
         max-height: 200px;
